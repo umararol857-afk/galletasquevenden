@@ -1,0 +1,23 @@
+GALLETAS QUE VENDEN — IMAGENS CORRIGIDAS + CHECKOUT HOTMART
+
+VERSÃO RECOMENDADA (MAIS RÁPIDA):
+1. Extraia este ZIP.
+2. Publique TODOS os ficheiros e pastas juntos, incluindo index.html, images/, scripts/ e vercel.json.
+3. Na Vercel, use o diretório que contém index.html como raiz do projeto.
+4. Não publique apenas o index.html sem a pasta images/.
+5. Os caminhos das imagens agora começam com /images/ e os scripts com /scripts/ para funcionar mesmo nas sub-rotas do domínio.
+
+VERSÃO ALTERNATIVA (CASO PRECISE PUBLICAR APENAS UM HTML):
+- Use o ficheiro alternativa_HTML_UNICO.html (renomeie-o para index.html ao publicá-lo).
+- As imagens e o script de desbloqueio estão embutidos: não precisa das pastas images/ e scripts/.
+- Esta versão é maior e pode ter LCP/FCP piores do que a versão recomendada.
+
+ALTERAÇÕES:
+- Imagens locais mantidas em AVIF e WebP e validadas.
+- Todos os 4 botões de compra foram religados à Hotmart:
+  https://pay.hotmart.com/X108012106O?checkoutMode=10&bid=1791929056832
+- VTurb original mantida, desbloqueio da oferta no minuto 10:00 preservado.
+- Scripts de rastreamento independentes continuam removidos.
+- Otimizações de imagens/cache mantidas.
+
+IMPORTANTE: para medir o LCP e o FCP reais, publique e teste o endereço de produção no PageSpeed Insights.
