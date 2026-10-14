@@ -1,23 +1,14 @@
-GALLETAS QUE VENDEN — IMAGENS CORRIGIDAS + CHECKOUT HOTMART
+GALLETAS QUE VENDEN - VERSÃO 14:17 (PRODUÇÃO)
 
-VERSÃO RECOMENDADA (MAIS RÁPIDA):
-1. Extraia este ZIP.
-2. Publique TODOS os ficheiros e pastas juntos, incluindo index.html, images/, scripts/ e vercel.json.
-3. Na Vercel, use o diretório que contém index.html como raiz do projeto.
-4. Não publique apenas o index.html sem a pasta images/.
-5. Os caminhos das imagens agora começam com /images/ e os scripts com /scripts/ para funcionar mesmo nas sub-rotas do domínio.
-
-VERSÃO ALTERNATIVA (CASO PRECISE PUBLICAR APENAS UM HTML):
-- Use o ficheiro alternativa_HTML_UNICO.html (renomeie-o para index.html ao publicá-lo).
-- As imagens e o script de desbloqueio estão embutidos: não precisa das pastas images/ e scripts/.
-- Esta versão é maior e pode ter LCP/FCP piores do que a versão recomendada.
-
-ALTERAÇÕES:
-- Imagens locais mantidas em AVIF e WebP e validadas.
-- Todos os 4 botões de compra foram religados à Hotmart:
+- Publicar todos os arquivos deste ZIP, incluindo /images e /scripts.
+- index.html é a página principal.
+- A oferta fica oculta e desbloqueia em 14 minutos e 17 segundos (857 segundos)
+  do vídeo, pelo evento oficial video:timeupdate da VTurb.
+- Vídeo original: vid-6ace6f80f6a57d8e37bbdaa6.
+- Os quatro botões de compra redirecionam ao checkout Hotmart: 
   https://pay.hotmart.com/X108012106O?checkoutMode=10&bid=1791929056832
-- VTurb original mantida, desbloqueio da oferta no minuto 10:00 preservado.
-- Scripts de rastreamento independentes continuam removidos.
-- Otimizações de imagens/cache mantidas.
-
-IMPORTANTE: para medir o LCP e o FCP reais, publique e teste o endereço de produção no PageSpeed Insights.
+- Correção CSS para manter a proporção das imagens no mobile.
+- Sem scripts próprios de rastreamento; player VTurb pode fazer requisições externas.
+- alternativa_HTML_UNICO.html: versão alternativa com imagens embutidas, 
+  desbloqueio em 14:17 e script autorizado por hash na CSP.
+- A sincronização do player em produção requer teste real em uma página publicada.
